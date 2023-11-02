@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class ExchangeRate {
     public static void main (String[] args){
-        Bank bank = new Bank();
+        BankService bank = new BankService();
         bank.Kyrs();
     }
 }
