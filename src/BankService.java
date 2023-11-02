@@ -7,7 +7,6 @@ public class BankService {
         Bank bank = new Bank();
         for (int i = 0; i < bank.exchangeRate.length; i++) {
             bank.exchangeRate[i] = (random.nextInt(500)+3500) / 100.0;
-            //exchangeRate[i] = random.nextInt(5);
             bank.checkGoodExchange[i] = bank.exchangeRate[i];
         }
         Arrays.sort(bank.checkGoodExchange);

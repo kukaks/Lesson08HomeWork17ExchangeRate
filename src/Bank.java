@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.Random;
 
 public class Bank {
     String[] bankNames = { "ПриватБанк", "Ощадбанк", "Укрексімбанк", "Сенс Банк", "Сітібанк", "Райффайзен Банк",
